@@ -1,7 +1,7 @@
 class bootstrap::misc {
 
   if ! ${bootstrap::root_email} {
-    fail("Module ${module_name} is missing ${bootstrap::root_email}. Please set!")
+    fail("Module ${module_name} is missing \${bootstrap::root_email}. Please set!")
   }
 
 
