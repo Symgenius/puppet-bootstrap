@@ -35,7 +35,7 @@
 #
 # Copyright 2013 Alexander Bien
 #
-class bootstrap::packages::centos {
+class bootstrap::packages::redhat {
   package {
     [
     'redhat-lsb',
