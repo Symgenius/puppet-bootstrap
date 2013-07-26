@@ -26,6 +26,7 @@ class bootstrap::packages {
     'telnet', # net-misc/telnet-bsd
     'unzip', # app-arch/unzip
     'vim-enhanced', # app-editors/vim
+    'vnstat',
     'wget', # net-misc/wget
     'zip', # app-arch/zip
     ]:
